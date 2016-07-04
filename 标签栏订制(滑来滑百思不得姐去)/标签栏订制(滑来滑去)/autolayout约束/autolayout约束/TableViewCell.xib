@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="129" id="KGk-i7-Jjw" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="129"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="128"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="paopa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hkH-EV-ceH">
+                        <rect key="frame" x="8" y="5" width="74" height="68"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="68" id="Ngc-g7-ro0"/>
+                            <constraint firstAttribute="width" constant="74" id="asG-e1-4Ed"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4c-aj-ssN">
+                        <rect key="frame" x="10" y="85" width="300" height="35"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="B4c-aj-ssN" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="F8A-EL-XjJ"/>
+                    <constraint firstItem="hkH-EV-ceH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="Nes-Fm-lxz"/>
+                    <constraint firstItem="hkH-EV-ceH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Ve9-8e-S21"/>
+                    <constraint firstItem="B4c-aj-ssN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="Yjf-JO-tfi"/>
+                    <constraint firstItem="B4c-aj-ssN" firstAttribute="top" secondItem="hkH-EV-ceH" secondAttribute="bottom" constant="12" id="a8j-uD-dLb"/>
+                    <constraint firstItem="B4c-aj-ssN" firstAttribute="top" secondItem="hkH-EV-ceH" secondAttribute="bottom" constant="10" id="qkE-aU-efv"/>
+                    <constraint firstItem="B4c-aj-ssN" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="yTx-5d-JCc"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="qkE-aU-efv"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageviews" destination="hkH-EV-ceH" id="RAs-kR-fB0"/>
+                <outlet property="name" destination="B4c-aj-ssN" id="Run-zk-3EQ"/>
+            </connections>
+            <point key="canvasLocation" x="270" y="285.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="paopa.jpg" width="44" height="31"/>
+    </resources>
+</document>

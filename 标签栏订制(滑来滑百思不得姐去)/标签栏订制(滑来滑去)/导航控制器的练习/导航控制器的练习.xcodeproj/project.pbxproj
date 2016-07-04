@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13275DDD1CF80E6E00C3E54A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13275DDC1CF80E6E00C3E54A /* main.m */; };
+		13275DE01CF80E6E00C3E54A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13275DDF1CF80E6E00C3E54A /* AppDelegate.m */; };
+		13275DE31CF80E6E00C3E54A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13275DE21CF80E6E00C3E54A /* ViewController.m */; };
+		13275DE61CF80E6E00C3E54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13275DE41CF80E6E00C3E54A /* Main.storyboard */; };
+		13275DE81CF80E6E00C3E54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13275DE71CF80E6E00C3E54A /* Assets.xcassets */; };
+		13275DEB1CF80E6E00C3E54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13275DE91CF80E6E00C3E54A /* LaunchScreen.storyboard */; };
+		13275DF61CF80E6F00C3E54A /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13275DF51CF80E6F00C3E54A /* ________Tests.m */; };
+		13275E011CF80E6F00C3E54A /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13275E001CF80E6F00C3E54A /* ________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13275DF21CF80E6E00C3E54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13275DD01CF80E6E00C3E54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13275DD71CF80E6E00C3E54A;
+			remoteInfo = "导航控制器的练习";
+		};
+		13275DFD1CF80E6F00C3E54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13275DD01CF80E6E00C3E54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13275DD71CF80E6E00C3E54A;
+			remoteInfo = "导航控制器的练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13275DD81CF80E6E00C3E54A /* 导航控制器的练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "导航控制器的练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13275DDC1CF80E6E00C3E54A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13275DDE1CF80E6E00C3E54A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13275DDF1CF80E6E00C3E54A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13275DE11CF80E6E00C3E54A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13275DE21CF80E6E00C3E54A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13275DE51CF80E6E00C3E54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13275DE71CF80E6E00C3E54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13275DEA1CF80E6E00C3E54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13275DEC1CF80E6E00C3E54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13275DF11CF80E6E00C3E54A /* 导航控制器的练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "导航控制器的练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13275DF51CF80E6F00C3E54A /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		13275DF71CF80E6F00C3E54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13275DFC1CF80E6F00C3E54A /* 导航控制器的练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "导航控制器的练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13275E001CF80E6F00C3E54A /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		13275E021CF80E6F00C3E54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13275DD51CF80E6E00C3E54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13275DEE1CF80E6E00C3E54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13275DF91CF80E6F00C3E54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13275DCF1CF80E6E00C3E54A = {
+			isa = PBXGroup;
+			children = (
+				13275DDA1CF80E6E00C3E54A /* 导航控制器的练习 */,
+				13275DF41CF80E6F00C3E54A /* 导航控制器的练习Tests */,
+				13275DFF1CF80E6F00C3E54A /* 导航控制器的练习UITests */,
+				13275DD91CF80E6E00C3E54A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13275DD91CF80E6E00C3E54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13275DD81CF80E6E00C3E54A /* 导航控制器的练习.app */,
+				13275DF11CF80E6E00C3E54A /* 导航控制器的练习Tests.xctest */,
+				13275DFC1CF80E6F00C3E54A /* 导航控制器的练习UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13275DDA1CF80E6E00C3E54A /* 导航控制器的练习 */ = {
+			isa = PBXGroup;
+			children = (
+				13275DDE1CF80E6E00C3E54A /* AppDelegate.h */,
+				13275DDF1CF80E6E00C3E54A /* AppDelegate.m */,
+				13275DE11CF80E6E00C3E54A /* ViewController.h */,
+				13275DE21CF80E6E00C3E54A /* ViewController.m */,
+				13275DE41CF80E6E00C3E54A /* Main.storyboard */,
+				13275DE71CF80E6E00C3E54A /* Assets.xcassets */,
+				13275DE91CF80E6E00C3E54A /* LaunchScreen.storyboard */,
+				13275DEC1CF80E6E00C3E54A /* Info.plist */,
+				13275DDB1CF80E6E00C3E54A /* Supporting Files */,
+			);
+			path = "导航控制器的练习";
+			sourceTree = "<group>";
+		};
+		13275DDB1CF80E6E00C3E54A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13275DDC1CF80E6E00C3E54A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13275DF41CF80E6F00C3E54A /* 导航控制器的练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13275DF51CF80E6F00C3E54A /* ________Tests.m */,
+				13275DF71CF80E6F00C3E54A /* Info.plist */,
+			);
+			path = "导航控制器的练习Tests";
+			sourceTree = "<group>";
+		};
+		13275DFF1CF80E6F00C3E54A /* 导航控制器的练习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				13275E001CF80E6F00C3E54A /* ________UITests.m */,
+				13275E021CF80E6F00C3E54A /* Info.plist */,
+			);
+			path = "导航控制器的练习UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13275DD71CF80E6E00C3E54A /* 导航控制器的练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13275E051CF80E6F00C3E54A /* Build configuration list for PBXNativeTarget "导航控制器的练习" */;
+			buildPhases = (
+				13275DD41CF80E6E00C3E54A /* Sources */,
+				13275DD51CF80E6E00C3E54A /* Frameworks */,
+				13275DD61CF80E6E00C3E54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "导航控制器的练习";
+			productName = "导航控制器的练习";
+			productReference = 13275DD81CF80E6E00C3E54A /* 导航控制器的练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13275DF01CF80E6E00C3E54A /* 导航控制器的练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13275E081CF80E6F00C3E54A /* Build configuration list for PBXNativeTarget "导航控制器的练习Tests" */;
+			buildPhases = (
+				13275DED1CF80E6E00C3E54A /* Sources */,
+				13275DEE1CF80E6E00C3E54A /* Frameworks */,
+				13275DEF1CF80E6E00C3E54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13275DF31CF80E6E00C3E54A /* PBXTargetDependency */,
+			);
+			name = "导航控制器的练习Tests";
+			productName = "导航控制器的练习Tests";
+			productReference = 13275DF11CF80E6E00C3E54A /* 导航控制器的练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13275DFB1CF80E6F00C3E54A /* 导航控制器的练习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13275E0B1CF80E6F00C3E54A /* Build configuration list for PBXNativeTarget "导航控制器的练习UITests" */;
+			buildPhases = (
+				13275DF81CF80E6F00C3E54A /* Sources */,
+				13275DF91CF80E6F00C3E54A /* Frameworks */,
+				13275DFA1CF80E6F00C3E54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13275DFE1CF80E6F00C3E54A /* PBXTargetDependency */,
+			);
+			name = "导航控制器的练习UITests";
+			productName = "导航控制器的练习UITests";
+			productReference = 13275DFC1CF80E6F00C3E54A /* 导航控制器的练习UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13275DD01CF80E6E00C3E54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = myh;
+				TargetAttributes = {
+					13275DD71CF80E6E00C3E54A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					13275DF01CF80E6E00C3E54A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 13275DD71CF80E6E00C3E54A;
+					};
+					13275DFB1CF80E6F00C3E54A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 13275DD71CF80E6E00C3E54A;
+					};
+				};
+			};
+			buildConfigurationList = 13275DD31CF80E6E00C3E54A /* Build configuration list for PBXProject "导航控制器的练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13275DCF1CF80E6E00C3E54A;
+			productRefGroup = 13275DD91CF80E6E00C3E54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13275DD71CF80E6E00C3E54A /* 导航控制器的练习 */,
+				13275DF01CF80E6E00C3E54A /* 导航控制器的练习Tests */,
+				13275DFB1CF80E6F00C3E54A /* 导航控制器的练习UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13275DD61CF80E6E00C3E54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13275DEB1CF80E6E00C3E54A /* LaunchScreen.storyboard in Resources */,
+				13275DE81CF80E6E00C3E54A /* Assets.xcassets in Resources */,
+				13275DE61CF80E6E00C3E54A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13275DEF1CF80E6E00C3E54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13275DFA1CF80E6F00C3E54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13275DD41CF80E6E00C3E54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13275DE31CF80E6E00C3E54A /* ViewController.m in Sources */,
+				13275DE01CF80E6E00C3E54A /* AppDelegate.m in Sources */,
+				13275DDD1CF80E6E00C3E54A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13275DED1CF80E6E00C3E54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13275DF61CF80E6F00C3E54A /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13275DF81CF80E6F00C3E54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13275E011CF80E6F00C3E54A /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13275DF31CF80E6E00C3E54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13275DD71CF80E6E00C3E54A /* 导航控制器的练习 */;
+			targetProxy = 13275DF21CF80E6E00C3E54A /* PBXContainerItemProxy */;
+		};
+		13275DFE1CF80E6F00C3E54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13275DD71CF80E6E00C3E54A /* 导航控制器的练习 */;
+			targetProxy = 13275DFD1CF80E6F00C3E54A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13275DE41CF80E6E00C3E54A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13275DE51CF80E6E00C3E54A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13275DE91CF80E6E00C3E54A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13275DEA1CF80E6E00C3E54A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13275E031CF80E6F00C3E54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		13275E041CF80E6F00C3E54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13275E061CF80E6F00C3E54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "导航控制器的练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hym.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13275E071CF80E6F00C3E54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "导航控制器的练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hym.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13275E091CF80E6F00C3E54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "导航控制器的练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hym.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/导航控制器的练习.app/导航控制器的练习";
+			};
+			name = Debug;
+		};
+		13275E0A1CF80E6F00C3E54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "导航控制器的练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hym.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/导航控制器的练习.app/导航控制器的练习";
+			};
+			name = Release;
+		};
+		13275E0C1CF80E6F00C3E54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "导航控制器的练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hym.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "导航控制器的练习";
+			};
+			name = Debug;
+		};
+		13275E0D1CF80E6F00C3E54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "导航控制器的练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hym.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "导航控制器的练习";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13275DD31CF80E6E00C3E54A /* Build configuration list for PBXProject "导航控制器的练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13275E031CF80E6F00C3E54A /* Debug */,
+				13275E041CF80E6F00C3E54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13275E051CF80E6F00C3E54A /* Build configuration list for PBXNativeTarget "导航控制器的练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13275E061CF80E6F00C3E54A /* Debug */,
+				13275E071CF80E6F00C3E54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13275E081CF80E6F00C3E54A /* Build configuration list for PBXNativeTarget "导航控制器的练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13275E091CF80E6F00C3E54A /* Debug */,
+				13275E0A1CF80E6F00C3E54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13275E0B1CF80E6F00C3E54A /* Build configuration list for PBXNativeTarget "导航控制器的练习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13275E0C1CF80E6F00C3E54A /* Debug */,
+				13275E0D1CF80E6F00C3E54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13275DD01CF80E6E00C3E54A /* Project object */;
+}
